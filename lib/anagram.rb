@@ -6,7 +6,7 @@ class Anagram
     @anagram = anagram
   end
 
-  def match
+  def match(stri)
   end
 
 end
