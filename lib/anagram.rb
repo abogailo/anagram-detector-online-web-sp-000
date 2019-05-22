@@ -10,7 +10,7 @@ class Anagram
 
   def match(str)
     array.each do |anagram|
-    @@all << anagram.match(self.anagram.split('').sort)
+    @@all << anagram if anagram.split('').sort.match(self.anagram.split('').sort)
     end
   end
   @@all
