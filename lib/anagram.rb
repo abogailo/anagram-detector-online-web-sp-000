@@ -6,7 +6,7 @@ class Anagram
     @anagram = anagram
   end
 
-  def match(anagram)
+  def match(str)
     @@all << anagram.match(/[aeiou]/)
   end
   @@all
