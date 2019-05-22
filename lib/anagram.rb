@@ -6,7 +6,8 @@ class Anagram
     @anagram = anagram
   end
 
-  def match(stri)
+  def match(anagram)
+    array=[]
+    array << anagram.match(/[aeiou]/)
   end
-
 end
