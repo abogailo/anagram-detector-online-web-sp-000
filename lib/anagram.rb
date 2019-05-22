@@ -10,4 +10,5 @@ class Anagram
     array=[]
     array << anagram.match(/[aeiou]/)
   end
+  array
 end
