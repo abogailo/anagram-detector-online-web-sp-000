@@ -7,7 +7,7 @@ class Anagram
   end
 
   def match(anagram)
-    all << anagram.match(/[aeiou]/)
+    @@all << anagram.match(/[aeiou]/)
   end
-  all
+  @@all
 end
