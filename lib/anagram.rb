@@ -2,16 +2,15 @@
 class Anagram
   attr_accessor :anagram
 
-  @@all=[]
-
   def initialize(anagram)
     @anagram = anagram
   end
 
   def match(str)
+    array = []
     str.each do |anagram|
-    all << anagram if anagram.split('').sort == self.anagram.split('').sort
+    array << anagram if anagram.split('').sort == self.anagram.split('').sort
     end
-    all
+    array
   end
 end
